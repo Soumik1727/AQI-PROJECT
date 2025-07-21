@@ -1,0 +1,27 @@
+.search-bar{
+    position: relative;
+    border:1px solid var(--bg-layer);
+    background-color: var(--bg-layer);
+    border-radius: var(--br-1);
+    display: flex;
+    input{
+        padding: .6em 1em;
+        background: none;
+        border: none;
+        outline: none;
+        font-size: var(--fs-1);
+        min-width: 200px ;
+    }
+    button{
+        background: none;
+        border: none;
+        color:gray;
+        background-color: var(--bg-2);
+        border-radius: var(--br-0);
+        height: calc(100% - .4em);
+        margin: .2em;
+        cursor: pointer;
+        display: grid;
+        place-items: center;
+    }
+}

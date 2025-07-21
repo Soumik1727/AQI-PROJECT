@@ -1,0 +1,87 @@
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.2;
+  font-weight: 400;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  box-sizing: border-box;
+  
+  --bg-layer: rgba(128, 128, 128, 0.1);
+  --br-0: 0.125rem;
+  --br-1: .25rem;
+  --br-2: .5rem;
+  --br-3: .775rem;
+  --br-4: 1rem;
+
+  --fs-1: .75rem;
+  --fr-2: 1rem;
+  --fr-3: 2rem;
+
+
+  /* colors */
+  --primary-50: #e0fcff;
+  --primary-100: #bef8fd;
+  --primary-200: #87eaf2;
+  --primary-300: #54d1db;
+  --primary-400: #38bec9;
+  --primary-500: #2cb1bc;
+  --primary-600: #14919b;
+  --primary-700: #0e7c86;
+  --primary-800: #0a6c74;
+  --primary-900: #044e54;
+
+  /* grey */
+  --grey-50: #f8fafc;
+  --grey-100: #f1f5f9;
+  --grey-200: #e2e8f0;
+  --grey-300: #cbd5e1;
+  --grey-400: #94a3b8;
+  --grey-500: #64748b;
+  --grey-600: #475569;
+  --grey-700: #334155;
+  --grey-800: #1e293b;
+  --grey-900: #0f172a;
+  /* rest of the colors */
+  --black: #222;
+  --white: #fff;
+  --red-light: #f8d7da;
+  --red-dark: #842029;
+  --green-light: #d1e7dd;
+  --green-dark: #0f5132;
+
+
+
+}
+
+body {
+  margin: 0;
+
+}
+
+body.light {
+  --bg: rgb(245, 245, 247);
+  --bg-2: #fff;
+
+}
+
+body.dark {
+  --bg: rgb(26, 28, 30);
+  --bg-2: rgb(34, 39, 44);
+  color-scheme: dark;
+  color: #fff
+}
+
+h2,h1,p,h3{
+  margin: 0;
+  padding: 0;
+}
+
+@media (max-width:550px) {
+  :root{
+    font-size: 13px;
+  }
+  
+}

@@ -1,0 +1,9 @@
+.theme-switch{
+    display: grid;
+    padding: .3em;
+    background-color: var(--bg-layer);
+    outline: none;
+    border: none;
+    border-radius: 50%;
+    font-size: 1rem;
+}
