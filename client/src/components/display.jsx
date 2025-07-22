@@ -121,7 +121,7 @@ export default function Display() {
                         </div>
                         <div className="co2">
                             <div className="t"> 
-                                <img width="50" height="50" src="src/assets/co2.png" alt="co2" />
+                                <img width="50" height="50" src="/assets/co2.png" alt="co2" />
                                  Co2
                                  </div>
                             {weatherData.co2} ppm
