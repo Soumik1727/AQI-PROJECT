@@ -5,8 +5,6 @@ import './css/Error.css';
 
 const Error = () => {
 
-
- 
     return (
       <div className="error-container">
         <img src={img} alt='not found' />

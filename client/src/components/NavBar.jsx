@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef, use } from 'react'
+import React, { useState, useEffect, useRef } from 'react'
 import './css/NavBar.css'
 import InputLabel from '@mui/material/InputLabel';
 import Select from '@mui/material/Select';
@@ -6,7 +6,7 @@ import MenuItem from '@mui/material/MenuItem';
 import FormControl from '@mui/material/FormControl';
 import { NavLink } from 'react-router-dom'
 import { HiMenu } from "react-icons/hi";
-import ThemeSwitch from './themeSwitch';
+import ThemeSwitch from './ThemeSwitch';
 import { IoClose } from "react-icons/io5";
 import axios from 'axios';
 import { useWeather } from '../wrapper/weatherDataWrap';
