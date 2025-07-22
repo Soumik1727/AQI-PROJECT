@@ -1,6 +1,6 @@
 import React from 'react'
 import { useWeather } from '../wrapper/weatherDataWrap'
-import './css/Display.css'
+import './css/display.css'
 export default function Display() {
     const { weatherData } = useWeather()
     const getAQIStatus = (aqi) => {
