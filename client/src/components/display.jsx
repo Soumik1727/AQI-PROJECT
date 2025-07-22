@@ -121,14 +121,14 @@ export default function Display() {
                         </div>
                         <div className="co2">
                             <div className="t"> 
-                                <img width="50" height="50" src="assets\co2.png" alt="co2" />
+                                <img width="50" height="50" src="assets/co2.png" alt="co2" />
                                  Co2
                                  </div>
                             {weatherData.co2} ppm
                         </div>
                         <div className="no2">
                             <div className="t">
-                                <img width="50" height="50" src="assets\no2.svg" alt="nitrogen-dioxide" />
+                                <img width="50" height="50" src="assets/no2.svg" alt="nitrogen-dioxide" />
                                  No2
                                  </div>
 
