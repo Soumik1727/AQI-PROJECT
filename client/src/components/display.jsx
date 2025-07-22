@@ -113,7 +113,7 @@ export default function Display() {
                     <div className="other">
                         <div className="hum">
                             <div className="t">
-                                <img width="48" height="48" src="src/assets/humidity.svg" alt="wet" /> 
+                                <img width="48" height="48" src="/assets/humidity.svg" alt="wet" /> 
                                 Humidity
                             </div>
 
@@ -121,14 +121,14 @@ export default function Display() {
                         </div>
                         <div className="co2">
                             <div className="t"> 
-                                <img width="50" height="50" src="src\assets\co2.png" alt="co2" />
+                                <img width="50" height="50" src="src/assets/co2.png" alt="co2" />
                                  Co2
                                  </div>
                             {weatherData.co2} ppm
                         </div>
                         <div className="no2">
                             <div className="t">
-                                <img width="50" height="50" src="src\assets\no2.svg" alt="nitrogen-dioxide" />
+                                <img width="50" height="50" src="/assets/no2.svg" alt="nitrogen-dioxide" />
                                  No2
                                  </div>
 
@@ -137,7 +137,7 @@ export default function Display() {
                     </div>
                 </div>
             </div>
-            <div className="bg" style={{ '--image': `url(src/assets/${getAQIStatus(weatherData.aqi)}.jpg)` }}>
+            <div className="bg" style={{ '--image': `url(/assets/${getAQIStatus(weatherData.aqi)}.jpg)` }}>
 
             </div>
         </div>
